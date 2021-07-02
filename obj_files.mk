@@ -289,6 +289,7 @@ REVOSDK_2_O_FILES := \
 	build/RevoSDK/TRK/runtime.o \
 	build/asm/RevoSDK/TRK/__init_cpp_exceptions.o \
 	build/RevoSDK/TRK/Gecko_ExceptionPPC.o \
+	build/asm/RevoSDK/TRK/GCN_mem_alloc.o \
 
 GROUP_1_O_FILES := \
 	build/asm/data.o \
