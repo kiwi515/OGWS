@@ -134,38 +134,38 @@ _unwind___flush_all:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B2A38
-_unwind_func_800B2A38:
+.global _unwind___ull2dec
+_unwind___ull2dec:
     .long 0x18080000
     .long 0x00000000
 
-.global _unwind_func_800B2B14
-_unwind_func_800B2B14:
+.global _unwind___timesdec
+_unwind___timesdec:
     .long 0x18080000
     .long 0x00000000
 
-.global _unwind_func_800B2E88
-_unwind_func_800B2E88:
+.global _unwind___two_exp
+_unwind___two_exp:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B33D8
-_unwind_func_800B33D8:
+.global _unwind___minus_dec
+_unwind___minus_dec:
     .long 0x68080000
     .long 0x00000000
 
-.global _unwind_func_800B38F4
-_unwind_func_800B38F4:
+.global _unwind___num2dec_internal
+_unwind___num2dec_internal:
     .long 0x18480000
     .long 0x00000000
 
-.global _unwind_func_800B3A58
-_unwind_func_800B3A58:
+.global _unwind___num2dec
+_unwind___num2dec:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B3BF8
-_unwind_func_800B3BF8:
+.global _unwind___dec2num
+_unwind___dec2num:
     .long 0x684a0000
     .long 0x00000000
 

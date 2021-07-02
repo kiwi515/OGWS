@@ -294,6 +294,8 @@ REVOSDK_2_O_FILES := \
 
 STL_O_FILES := \
 	build/asm/STL/ansi_files.o \
+	build/asm/STL/ansi_fp.o \
+	build/STL/arith.o \
 
 GROUP_1_O_FILES := \
 	build/asm/data.o \

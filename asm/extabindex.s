@@ -146,47 +146,47 @@ _index___flush_all:
     .long 0x0000006c
     .long _unwind___flush_all
 
-.global _index_func_800B2A38
-_index_func_800B2A38:
-    .long func_800B2A38
+.global _index___ull2dec
+_index___ull2dec:
+    .long __ull2dec
     .long 0x000000dc
-    .long _unwind_func_800B2A38
+    .long _unwind___ull2dec
 
-.global _index_func_800B2B14
-_index_func_800B2B14:
-    .long func_800B2B14
+.global _index___timesdec
+_index___timesdec:
+    .long __timesdec
     .long 0x00000288
-    .long _unwind_func_800B2B14
+    .long _unwind___timesdec
 
-.global _index_func_800B2E88
-_index_func_800B2E88:
-    .long func_800B2E88
+.global _index___two_exp
+_index___two_exp:
+    .long __two_exp
     .long 0x0000036c
-    .long _unwind_func_800B2E88
+    .long _unwind___two_exp
 
-.global _index_func_800B33D8
-_index_func_800B33D8:
-    .long func_800B33D8
+.global _index___minus_dec
+_index___minus_dec:
+    .long __minus_dec
     .long 0x0000051c
-    .long _unwind_func_800B33D8
+    .long _unwind___minus_dec
 
-.global _index_func_800B38F4
-_index_func_800B38F4:
-    .long func_800B38F4
+.global _index___num2dec_internal
+_index___num2dec_internal:
+    .long __num2dec_internal
     .long 0x00000164
-    .long _unwind_func_800B38F4
+    .long _unwind___num2dec_internal
 
-.global _index_func_800B3A58
-_index_func_800B3A58:
-    .long func_800B3A58
+.global _index___num2dec
+_index___num2dec:
+    .long __num2dec
     .long 0x000001a0
-    .long _unwind_func_800B3A58
+    .long _unwind___num2dec
 
-.global _index_func_800B3BF8
-_index_func_800B3BF8:
-    .long func_800B3BF8
+.global _index___dec2num
+_index___dec2num:
+    .long __dec2num
     .long 0x000007b0
-    .long _unwind_func_800B3BF8
+    .long _unwind___dec2num
 
 .global _index_func_800B43E0
 _index_func_800B43E0:

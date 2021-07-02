@@ -4,18 +4,19 @@
 
 .balign 0x8
 
-.global lbl_804BD538
-lbl_804BD538:
-	.incbin "baserom.dol", 0x3C71B8, 0x8
-.global lbl_804BD540
-lbl_804BD540:
-	.incbin "baserom.dol", 0x3C71C0, 0x8
-.global lbl_804BD548
-lbl_804BD548:
-	.incbin "baserom.dol", 0x3C71C8, 0x4
-.global lbl_804BD54C
-lbl_804BD54C:
-	.incbin "baserom.dol", 0x3C71CC, 0x4
+.global $$2wstringBase0
+$$2wstringBase0:
+	.fill 8
+.global random_next
+random_next:
+	.long 1
+	.balign 8
+.global __float_nan
+__float_nan:
+	.single NaN # 0x7FFFFFFF
+.global __float_huge
+__float_huge:
+	.single inf # 0x7F800000
 .global lbl_804BD550
 lbl_804BD550:
 	.incbin "baserom.dol", 0x3C71D0, 0x8
