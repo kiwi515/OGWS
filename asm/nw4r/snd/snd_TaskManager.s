@@ -45,7 +45,7 @@ GetInstance__Q44nw4r3snd6detail11TaskManagerFv:
 /* 8004B060 00045F60  7F E3 FB 78 */	mr r3, r31
 /* 8004B064 00045F64  38 84 B0 94 */	addi r4, r4, __dt__Q44nw4r3snd6detail11TaskManagerFv@l
 /* 8004B068 00045F68  38 A5 BC 58 */	addi r5, r5, lbl_803EBC58@l
-/* 8004B06C 00045F6C  48 06 67 C9 */	bl func_800B1834
+/* 8004B06C 00045F6C  48 06 67 C9 */	bl __register_global_object
 /* 8004B070 00045F70  38 00 00 01 */	li r0, 1
 /* 8004B074 00045F74  98 0D 97 A8 */	stb r0, lbl_804BEB28-_SDA_BASE_(r13)
 lbl_8004B078:

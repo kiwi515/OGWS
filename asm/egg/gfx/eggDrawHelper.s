@@ -124,4 +124,4 @@ __sinit_$$3eggDrawHelper_cpp:
 /* 800A1DA0 0009CCA0  38 84 1C F0 */	addi r4, r4, func_800A1CF0@l
 /* 800A1DA4 0009CCA4  38 6D 99 08 */	addi r3, r13, lbl_804BEC88-_SDA_BASE_
 /* 800A1DA8 0009CCA8  38 A5 AA 50 */	addi r5, r5, lbl_8040AA50@l
-/* 800A1DAC 0009CCAC  48 00 FA 88 */	b func_800B1834
+/* 800A1DAC 0009CCAC  48 00 FA 88 */	b __register_global_object

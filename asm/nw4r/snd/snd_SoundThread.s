@@ -55,7 +55,7 @@ GetInstance__Q44nw4r3snd6detail11SoundThreadFv:
 /* 80047968 00042868  7F E3 FB 78 */	mr r3, r31
 /* 8004796C 0004286C  38 84 79 9C */	addi r4, r4, __dt__Q44nw4r3snd6detail11SoundThreadFv@l
 /* 80047970 00042870  38 A5 78 70 */	addi r5, r5, lbl_803E7870@l
-/* 80047974 00042874  48 06 9E C1 */	bl func_800B1834
+/* 80047974 00042874  48 06 9E C1 */	bl __register_global_object
 /* 80047978 00042878  38 00 00 01 */	li r0, 1
 /* 8004797C 0004287C  98 0D 97 90 */	stb r0, lbl_804BEB10-_SDA_BASE_(r13)
 lbl_80047980:
@@ -156,7 +156,7 @@ lbl_80047A44:
 /* 80047AD0 000429D0  7F C3 F3 78 */	mr r3, r30
 /* 80047AD4 000429D4  38 84 79 9C */	addi r4, r4, __dt__Q44nw4r3snd6detail11SoundThreadFv@l
 /* 80047AD8 000429D8  38 A5 78 70 */	addi r5, r5, lbl_803E7870@l
-/* 80047ADC 000429DC  48 06 9D 59 */	bl func_800B1834
+/* 80047ADC 000429DC  48 06 9D 59 */	bl __register_global_object
 /* 80047AE0 000429E0  9B ED 97 90 */	stb r31, lbl_804BEB10-_SDA_BASE_(r13)
 lbl_80047AE4:
 /* 80047AE4 000429E4  3C 80 80 04 */	lis r4, SoundThreadFunc__Q44nw4r3snd6detail11SoundThreadFPv@ha
@@ -232,7 +232,7 @@ Shutdown__Q44nw4r3snd6detail11SoundThreadFv:
 /* 80047BE8 00042AE8  7F E3 FB 78 */	mr r3, r31
 /* 80047BEC 00042AEC  38 84 79 9C */	addi r4, r4, __dt__Q44nw4r3snd6detail11SoundThreadFv@l
 /* 80047BF0 00042AF0  38 A5 78 70 */	addi r5, r5, lbl_803E7870@l
-/* 80047BF4 00042AF4  48 06 9C 41 */	bl func_800B1834
+/* 80047BF4 00042AF4  48 06 9C 41 */	bl __register_global_object
 /* 80047BF8 00042AF8  38 00 00 01 */	li r0, 1
 /* 80047BFC 00042AFC  98 0D 97 90 */	stb r0, lbl_804BEB10-_SDA_BASE_(r13)
 lbl_80047C00:
@@ -297,7 +297,7 @@ AxCallbackFunc__Q44nw4r3snd6detail11SoundThreadFv:
 /* 80047CD8 00042BD8  7F C3 F3 78 */	mr r3, r30
 /* 80047CDC 00042BDC  38 84 79 9C */	addi r4, r4, __dt__Q44nw4r3snd6detail11SoundThreadFv@l
 /* 80047CE0 00042BE0  38 A5 78 70 */	addi r5, r5, lbl_803E7870@l
-/* 80047CE4 00042BE4  48 06 9B 51 */	bl func_800B1834
+/* 80047CE4 00042BE4  48 06 9B 51 */	bl __register_global_object
 /* 80047CE8 00042BE8  38 00 00 01 */	li r0, 1
 /* 80047CEC 00042BEC  98 0D 97 90 */	stb r0, lbl_804BEB10-_SDA_BASE_(r13)
 lbl_80047CF0:

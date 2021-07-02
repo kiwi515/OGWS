@@ -87,7 +87,7 @@ __sinit_$$3eggVector_cpp:
 /* 800A2520 0009D420  D0 05 00 04 */	stfs f0, 4(r5)
 /* 800A2524 0009D424  38 BE 00 00 */	addi r5, r30, 0
 /* 800A2528 0009D428  D0 0D 99 10 */	stfs f0, lbl_804BEC90-_SDA_BASE_(r13)
-/* 800A252C 0009D42C  48 00 F3 09 */	bl func_800B1834
+/* 800A252C 0009D42C  48 00 F3 09 */	bl __register_global_object
 /* 800A2530 0009D430  C0 22 8F B8 */	lfs f1, lbl_804C09D8-_SDA2_BASE_(r2)
 /* 800A2534 0009D434  38 CD 99 18 */	addi r6, r13, lbl_804BEC98-_SDA_BASE_
 /* 800A2538 0009D438  C0 02 8F BC */	lfs f0, lbl_804C09DC-_SDA2_BASE_(r2)
@@ -96,7 +96,7 @@ __sinit_$$3eggVector_cpp:
 /* 800A2544 0009D444  38 BE 00 0C */	addi r5, r30, 0xc
 /* 800A2548 0009D448  38 6D 99 18 */	addi r3, r13, lbl_804BEC98-_SDA_BASE_
 /* 800A254C 0009D44C  D0 06 00 04 */	stfs f0, 4(r6)
-/* 800A2550 0009D450  48 00 F2 E5 */	bl func_800B1834
+/* 800A2550 0009D450  48 00 F2 E5 */	bl __register_global_object
 /* 800A2554 0009D454  C0 22 8F BC */	lfs f1, lbl_804C09DC-_SDA2_BASE_(r2)
 /* 800A2558 0009D458  38 CD 99 20 */	addi r6, r13, lbl_804BECA0-_SDA_BASE_
 /* 800A255C 0009D45C  C0 02 8F B8 */	lfs f0, lbl_804C09D8-_SDA2_BASE_(r2)
@@ -105,7 +105,7 @@ __sinit_$$3eggVector_cpp:
 /* 800A2568 0009D468  38 BE 00 18 */	addi r5, r30, 0x18
 /* 800A256C 0009D46C  38 6D 99 20 */	addi r3, r13, lbl_804BECA0-_SDA_BASE_
 /* 800A2570 0009D470  D0 06 00 04 */	stfs f0, 4(r6)
-/* 800A2574 0009D474  48 00 F2 C1 */	bl func_800B1834
+/* 800A2574 0009D474  48 00 F2 C1 */	bl __register_global_object
 /* 800A2578 0009D478  C0 02 8F BC */	lfs f0, lbl_804C09DC-_SDA2_BASE_(r2)
 /* 800A257C 0009D47C  38 7E 00 30 */	addi r3, r30, 0x30
 /* 800A2580 0009D480  3F E0 80 0A */	lis r31, func_800A1C30@ha
@@ -114,7 +114,7 @@ __sinit_$$3eggVector_cpp:
 /* 800A258C 0009D48C  38 9F 1C 30 */	addi r4, r31, func_800A1C30@l
 /* 800A2590 0009D490  D0 03 00 04 */	stfs f0, 4(r3)
 /* 800A2594 0009D494  D0 03 00 08 */	stfs f0, 8(r3)
-/* 800A2598 0009D498  48 00 F2 9D */	bl func_800B1834
+/* 800A2598 0009D498  48 00 F2 9D */	bl __register_global_object
 /* 800A259C 0009D49C  C0 22 8F B8 */	lfs f1, lbl_804C09D8-_SDA2_BASE_(r2)
 /* 800A25A0 0009D4A0  38 7E 00 48 */	addi r3, r30, 0x48
 /* 800A25A4 0009D4A4  C0 02 8F BC */	lfs f0, lbl_804C09DC-_SDA2_BASE_(r2)
@@ -123,7 +123,7 @@ __sinit_$$3eggVector_cpp:
 /* 800A25B0 0009D4B0  38 BE 00 3C */	addi r5, r30, 0x3c
 /* 800A25B4 0009D4B4  D0 03 00 04 */	stfs f0, 4(r3)
 /* 800A25B8 0009D4B8  D0 03 00 08 */	stfs f0, 8(r3)
-/* 800A25BC 0009D4BC  48 00 F2 79 */	bl func_800B1834
+/* 800A25BC 0009D4BC  48 00 F2 79 */	bl __register_global_object
 /* 800A25C0 0009D4C0  C0 22 8F BC */	lfs f1, lbl_804C09DC-_SDA2_BASE_(r2)
 /* 800A25C4 0009D4C4  38 7E 00 60 */	addi r3, r30, 0x60
 /* 800A25C8 0009D4C8  C0 02 8F B8 */	lfs f0, lbl_804C09D8-_SDA2_BASE_(r2)
@@ -132,7 +132,7 @@ __sinit_$$3eggVector_cpp:
 /* 800A25D4 0009D4D4  38 BE 00 54 */	addi r5, r30, 0x54
 /* 800A25D8 0009D4D8  D0 03 00 04 */	stfs f0, 4(r3)
 /* 800A25DC 0009D4DC  D0 23 00 08 */	stfs f1, 8(r3)
-/* 800A25E0 0009D4E0  48 00 F2 55 */	bl func_800B1834
+/* 800A25E0 0009D4E0  48 00 F2 55 */	bl __register_global_object
 /* 800A25E4 0009D4E4  C0 22 8F BC */	lfs f1, lbl_804C09DC-_SDA2_BASE_(r2)
 /* 800A25E8 0009D4E8  38 7E 00 78 */	addi r3, r30, 0x78
 /* 800A25EC 0009D4EC  C0 02 8F B8 */	lfs f0, lbl_804C09D8-_SDA2_BASE_(r2)
@@ -141,7 +141,7 @@ __sinit_$$3eggVector_cpp:
 /* 800A25F8 0009D4F8  38 BE 00 6C */	addi r5, r30, 0x6c
 /* 800A25FC 0009D4FC  D0 23 00 04 */	stfs f1, 4(r3)
 /* 800A2600 0009D500  D0 03 00 08 */	stfs f0, 8(r3)
-/* 800A2604 0009D504  48 00 F2 31 */	bl func_800B1834
+/* 800A2604 0009D504  48 00 F2 31 */	bl __register_global_object
 /* 800A2608 0009D508  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A260C 0009D50C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800A2610 0009D510  83 C1 00 08 */	lwz r30, 8(r1)

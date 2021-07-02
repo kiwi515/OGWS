@@ -283,7 +283,7 @@ __sinit_$$3snd_SoundSystem_cpp:
 /* 800478B4 000427B4  38 7F 0B D0 */	addi r3, r31, 0xbd0
 /* 800478B8 000427B8  38 84 B7 78 */	addi r4, r4, __dt__Q44nw4r3snd6detail10TaskThreadFv@l
 /* 800478BC 000427BC  38 A5 0B C0 */	addi r5, r5, lbl_803D0BC0@l
-/* 800478C0 000427C0  48 06 9F 75 */	bl func_800B1834
+/* 800478C0 000427C0  48 06 9F 75 */	bl __register_global_object
 /* 800478C4 000427C4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800478C8 000427C8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800478CC 000427CC  7C 08 03 A6 */	mtlr r0

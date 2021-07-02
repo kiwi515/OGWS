@@ -50,7 +50,7 @@ GetInstance__Q44nw4r3snd6detail14AxVoiceManagerFv:
 /* 80034FBC 0002FEBC  90 E3 00 1C */	stw r7, 0x1c(r3)
 /* 80034FC0 0002FEC0  90 E3 00 20 */	stw r7, 0x20(r3)
 /* 80034FC4 0002FEC4  98 03 00 24 */	stb r0, 0x24(r3)
-/* 80034FC8 0002FEC8  48 07 C8 6D */	bl func_800B1834
+/* 80034FC8 0002FEC8  48 07 C8 6D */	bl __register_global_object
 /* 80034FCC 0002FECC  38 00 00 01 */	li r0, 1
 /* 80034FD0 0002FED0  98 0D 96 E8 */	stb r0, $$2GUARD$$2instance$3086-_SDA_BASE_(r13)
 lbl_80034FD4:
@@ -412,7 +412,7 @@ lbl_80035458:
 /* 800354B0 000303B0  91 1A 00 1C */	stw r8, 0x1c(r26)
 /* 800354B4 000303B4  91 1A 00 20 */	stw r8, 0x20(r26)
 /* 800354B8 000303B8  9B 9A 00 24 */	stb r28, 0x24(r26)
-/* 800354BC 000303BC  48 07 C3 79 */	bl func_800B1834
+/* 800354BC 000303BC  48 07 C3 79 */	bl __register_global_object
 /* 800354C0 000303C0  9B ED 96 E8 */	stb r31, $$2GUARD$$2instance$3086-_SDA_BASE_(r13)
 lbl_800354C4:
 /* 800354C4 000303C4  48 0B C3 FD */	bl OSDisableInterrupts
@@ -701,7 +701,7 @@ lbl_8003586C:
 /* 800358C4 000307C4  91 16 00 1C */	stw r8, 0x1c(r22)
 /* 800358C8 000307C8  91 16 00 20 */	stw r8, 0x20(r22)
 /* 800358CC 000307CC  9B 16 00 24 */	stb r24, 0x24(r22)
-/* 800358D0 000307D0  48 07 BF 65 */	bl func_800B1834
+/* 800358D0 000307D0  48 07 BF 65 */	bl __register_global_object
 /* 800358D4 000307D4  9B 6D 96 E8 */	stb r27, $$2GUARD$$2instance$3086-_SDA_BASE_(r13)
 lbl_800358D8:
 /* 800358D8 000307D8  48 0B BF E9 */	bl OSDisableInterrupts

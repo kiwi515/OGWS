@@ -41,7 +41,7 @@ GetInstance__Q44nw4r3snd6detail22DisposeCallbackManagerFv:
 /* 800385D0 000334D0  90 06 08 B4 */	stw r0, instance$7008@l(r6)
 /* 800385D4 000334D4  90 E3 00 04 */	stw r7, 4(r3)
 /* 800385D8 000334D8  90 E3 00 08 */	stw r7, 8(r3)
-/* 800385DC 000334DC  48 07 92 59 */	bl func_800B1834
+/* 800385DC 000334DC  48 07 92 59 */	bl __register_global_object
 /* 800385E0 000334E0  38 00 00 01 */	li r0, 1
 /* 800385E4 000334E4  98 0D 97 08 */	stb r0, $$2GUARD$$2instance$7008-_SDA_BASE_(r13)
 lbl_800385E8:
@@ -129,7 +129,7 @@ Dispose__Q44nw4r3snd6detail22DisposeCallbackManagerFPvUlPv:
 /* 800386F4 000335F4  90 06 08 B4 */	stw r0, instance$7008@l(r6)
 /* 800386F8 000335F8  90 E3 00 04 */	stw r7, 4(r3)
 /* 800386FC 000335FC  90 E3 00 08 */	stw r7, 8(r3)
-/* 80038700 00033600  48 07 91 35 */	bl func_800B1834
+/* 80038700 00033600  48 07 91 35 */	bl __register_global_object
 /* 80038704 00033604  38 00 00 01 */	li r0, 1
 /* 80038708 00033608  98 0D 97 08 */	stb r0, $$2GUARD$$2instance$7008-_SDA_BASE_(r13)
 lbl_8003870C:
@@ -168,7 +168,7 @@ lbl_80038758:
 /* 80038784 00033684  92 F5 08 B4 */	stw r23, instance$7008@l(r21)
 /* 80038788 00033688  90 D6 00 04 */	stw r6, 4(r22)
 /* 8003878C 0003368C  90 D6 00 08 */	stw r6, 8(r22)
-/* 80038790 00033690  48 07 90 A5 */	bl func_800B1834
+/* 80038790 00033690  48 07 90 A5 */	bl __register_global_object
 /* 80038794 00033694  9B 4D 97 08 */	stb r26, $$2GUARD$$2instance$7008-_SDA_BASE_(r13)
 lbl_80038798:
 /* 80038798 00033698  7F 83 E3 78 */	mr r3, r28
@@ -209,7 +209,7 @@ DisposeWave__Q44nw4r3snd6detail22DisposeCallbackManagerFPvUlPv:
 /* 80038818 00033718  90 06 08 B4 */	stw r0, 0x8b4(r6)
 /* 8003881C 0003371C  90 E3 00 04 */	stw r7, 4(r3)
 /* 80038820 00033720  90 E3 00 08 */	stw r7, 8(r3)
-/* 80038824 00033724  48 07 90 11 */	bl func_800B1834
+/* 80038824 00033724  48 07 90 11 */	bl __register_global_object
 /* 80038828 00033728  38 00 00 01 */	li r0, 1
 /* 8003882C 0003372C  98 0D 97 08 */	stb r0, $$2GUARD$$2instance$7008-_SDA_BASE_(r13)
 lbl_80038830:
@@ -248,7 +248,7 @@ lbl_8003887C:
 /* 800388A8 000337A8  92 F5 08 B4 */	stw r23, 0x8b4(r21)
 /* 800388AC 000337AC  90 D6 00 04 */	stw r6, 4(r22)
 /* 800388B0 000337B0  90 D6 00 08 */	stw r6, 8(r22)
-/* 800388B4 000337B4  48 07 8F 81 */	bl func_800B1834
+/* 800388B4 000337B4  48 07 8F 81 */	bl __register_global_object
 /* 800388B8 000337B8  9B 4D 97 08 */	stb r26, $$2GUARD$$2instance$7008-_SDA_BASE_(r13)
 lbl_800388BC:
 /* 800388BC 000337BC  7F 83 E3 78 */	mr r3, r28

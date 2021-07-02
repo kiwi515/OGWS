@@ -4234,7 +4234,7 @@ lbl_80067984:
 /* 80067A28 00062928  98 1C 00 26 */	stb r0, 0x26(r28)
 /* 80067A2C 0006292C  98 1C 00 25 */	stb r0, 0x25(r28)
 /* 80067A30 00062930  98 1C 00 24 */	stb r0, 0x24(r28)
-/* 80067A34 00062934  48 04 9E 01 */	bl func_800B1834
+/* 80067A34 00062934  48 04 9E 01 */	bl __register_global_object
 /* 80067A38 00062938  38 7F 3A 80 */	addi r3, r31, 0x3a80
 /* 80067A3C 0006293C  4B FF D5 C1 */	bl __ct__Q54nw4r3g3d8G3DState23$$2unnamed$$2g3d_state_cpp$$214CameraMtxStateFv
 /* 80067A40 00062940  3C 60 80 39 */	lis r3, __vt__Q44nw4r3g3d8G3DState11IndMtxOpStd@ha
@@ -4265,7 +4265,7 @@ lbl_80067A64:
 /* 80067AA0 000629A0  98 1C 00 05 */	stb r0, 5(r28)
 /* 80067AA4 000629A4  98 1C 00 04 */	stb r0, 4(r28)
 /* 80067AA8 000629A8  98 1C 00 07 */	stb r0, 7(r28)
-/* 80067AAC 000629AC  48 04 9D 89 */	bl func_800B1834
+/* 80067AAC 000629AC  48 04 9D 89 */	bl __register_global_object
 /* 80067AB0 000629B0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80067AB4 000629B4  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 80067AB8 000629B8  83 C1 00 18 */	lwz r30, 0x18(r1)

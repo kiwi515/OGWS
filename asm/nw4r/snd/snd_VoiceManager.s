@@ -42,7 +42,7 @@ GetInstance__Q44nw4r3snd6detail12VoiceManagerFv:
 /* 8004E110 00049010  90 03 00 10 */	stw r0, 0x10(r3)
 /* 8004E114 00049014  90 E3 00 14 */	stw r7, 0x14(r3)
 /* 8004E118 00049018  90 E3 00 18 */	stw r7, 0x18(r3)
-/* 8004E11C 0004901C  48 06 37 19 */	bl func_800B1834
+/* 8004E11C 0004901C  48 06 37 19 */	bl __register_global_object
 /* 8004E120 00049020  38 00 00 01 */	li r0, 1
 /* 8004E124 00049024  98 0D 97 B0 */	stb r0, lbl_804BEB30-_SDA_BASE_(r13)
 lbl_8004E128:

@@ -2221,7 +2221,7 @@ lbl_800A76B4:
 /* 800A76D4 000A25D4  38 84 77 00 */	addi r4, r4, __dt__Q23EGG14NullControllerFv@l
 /* 800A76D8 000A25D8  38 A5 AB 70 */	addi r5, r5, $$223951@l
 /* 800A76DC 000A25DC  98 1E 09 58 */	stb r0, 0x958(r30)
-/* 800A76E0 000A25E0  48 00 A1 55 */	bl func_800B1834
+/* 800A76E0 000A25E0  48 00 A1 55 */	bl __register_global_object
 /* 800A76E4 000A25E4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800A76E8 000A25E8  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 800A76EC 000A25EC  83 C1 00 18 */	lwz r30, 0x18(r1)

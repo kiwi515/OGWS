@@ -4465,7 +4465,7 @@ __sinit_$$3ut_TextWriterBase_cpp:
 /* 8001069C 0000B59C  38 84 7C 7C */	addi r4, r4, __dt__Q34nw4r2ut19TagProcessorBase$$0c$$1Fv@l
 /* 800106A0 0000B5A0  38 6D 96 94 */	addi r3, r13, mDefaultTagProcessor__Q34nw4r2ut17TextWriterBase$$0c$$1-_SDA_BASE_
 /* 800106A4 0000B5A4  38 A5 AF 58 */	addi r5, r5, lbl_803CAF58@l
-/* 800106A8 0000B5A8  48 0A 11 8D */	bl func_800B1834
+/* 800106A8 0000B5A8  48 0A 11 8D */	bl __register_global_object
 /* 800106AC 0000B5AC  38 00 00 01 */	li r0, 1
 /* 800106B0 0000B5B0  98 0D 96 9C */	stb r0, lbl_804BEA1C-_SDA_BASE_(r13)
 lbl_800106B4:
@@ -4479,7 +4479,7 @@ lbl_800106B4:
 /* 800106D0 0000B5D0  38 84 7F E4 */	addi r4, r4, __dt__Q34nw4r2ut19TagProcessorBase$$0w$$1Fv@l
 /* 800106D4 0000B5D4  38 6D 96 98 */	addi r3, r13, mDefaultTagProcessor__Q34nw4r2ut17TextWriterBase$$0w$$1-_SDA_BASE_
 /* 800106D8 0000B5D8  38 A5 AF 64 */	addi r5, r5, lbl_803CAF64@l
-/* 800106DC 0000B5DC  48 0A 11 59 */	bl func_800B1834
+/* 800106DC 0000B5DC  48 0A 11 59 */	bl __register_global_object
 /* 800106E0 0000B5E0  38 00 00 01 */	li r0, 1
 /* 800106E4 0000B5E4  98 0D 96 9D */	stb r0, lbl_804BEA1D-_SDA_BASE_(r13)
 lbl_800106E8:
