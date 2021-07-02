@@ -19,7 +19,7 @@ func_800B2288:
 /* 800B22A0 000AD1A0  3C 60 80 00 */	lis r3, _eti_init_info_@ha
 /* 800B22A4 000AD1A4  7C 44 13 78 */	mr r4, r2
 /* 800B22A8 000AD1A8  38 63 76 B8 */	addi r3, r3, _eti_init_info_@l
-/* 800B22AC 000AD1AC  48 00 00 4D */	bl func_800B22F8
+/* 800B22AC 000AD1AC  48 00 00 4D */	bl __register_fragment
 /* 800B22B0 000AD1B0  90 6D 81 B0 */	stw r3, fragmentID-_SDA_BASE_(r13)
 lbl_800B22B4:
 /* 800B22B4 000AD1B4  80 01 00 14 */	lwz r0, 0x14(r1)
@@ -36,7 +36,7 @@ func_800B22C4:
 /* 800B22D0 000AD1D0  80 6D 81 B0 */	lwz r3, fragmentID-_SDA_BASE_(r13)
 /* 800B22D4 000AD1D4  2C 03 FF FE */	cmpwi r3, -2
 /* 800B22D8 000AD1D8  41 82 00 10 */	beq lbl_800B22E8
-/* 800B22DC 000AD1DC  48 00 00 51 */	bl func_800B232C
+/* 800B22DC 000AD1DC  48 00 00 51 */	bl __unregister_fragment
 /* 800B22E0 000AD1E0  38 00 FF FE */	li r0, -2
 /* 800B22E4 000AD1E4  90 0D 81 B0 */	stw r0, fragmentID-_SDA_BASE_(r13)
 lbl_800B22E8:

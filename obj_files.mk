@@ -279,7 +279,7 @@ EGG_O_FILES := \
 	build/asm/egg/util/eggEffect.o \
 	build/asm/egg/util/eggException.o \
 
-STL_O_FILES := \
+REVOSDK_2_O_FILES := \
 	build/asm/rodata_8037B248.o \
 	build/asm/RevoSDK/TRK/__mem.o \
 	build/RevoSDK/TRK/__va_arg.o \
@@ -288,6 +288,7 @@ STL_O_FILES := \
 	build/RevoSDK/TRK/ptmf.o \
 	build/RevoSDK/TRK/runtime.o \
 	build/asm/RevoSDK/TRK/__init_cpp_exceptions.o \
+	build/RevoSDK/TRK/Gecko_ExceptionPPC.o \
 
 GROUP_1_O_FILES := \
 	build/asm/data.o \
@@ -307,4 +308,4 @@ GROUP_1_O_FILES := \
 	build/asm/sbss2.o \
 	build/asm/sdata2.o \
 
-O_FILES := $(GROUP_0_O_FILES) $(NW4R_O_FILES) $(EGG_O_FILES) $(STL_O_FILES) $(GROUP_1_O_FILES) $(REVOSDK_O_FILES)
+O_FILES := $(GROUP_0_O_FILES) $(NW4R_O_FILES) $(EGG_O_FILES) $(REVOSDK_2_O_FILES) $(GROUP_1_O_FILES) $(REVOSDK_O_FILES)
