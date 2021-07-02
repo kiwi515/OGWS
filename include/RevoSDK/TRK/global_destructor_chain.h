@@ -1,5 +1,5 @@
-#ifndef REVOSDK_TRK_GLOBAL_DTOR_CHAIN
-#define REVOSDK_TRK_GLOBAL_DTOR_CHAIN
+#ifndef REVOSDK_TRK_GLOBAL_DTOR_CHAIN_H
+#define REVOSDK_TRK_GLOBAL_DTOR_CHAIN_H
 #include <types.h>
 #ifdef __cplusplus
 extern "C" {
