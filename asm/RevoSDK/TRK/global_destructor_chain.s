@@ -1,7 +1,6 @@
 .include "macros.inc"
 
 .section .text, "ax"
-
 # __register_global_object
 .global func_800B1834
 func_800B1834:
@@ -35,3 +34,10 @@ lbl_800B1878:
 /* 800B1888 000AC788  7C 08 03 A6 */	mtlr r0
 /* 800B188C 000AC78C  38 21 00 10 */	addi r1, r1, 0x10
 /* 800B1890 000AC790  4E 80 00 20 */	blr 
+
+.section .sbss, "wa"
+.balign 0x8
+# __global_destructor_chain
+.global lbl_804BED58
+lbl_804BED58:
+	.skip 0x8
