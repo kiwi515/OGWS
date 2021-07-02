@@ -13,12 +13,14 @@ fix_pool_sizes:
 
 .section .sbss, "wa"
 .balign 0x8
+# init$344 in BBA
 .global $$2LOCAL$$2get_malloc_pool__Fv$$2init$$20
 $$2LOCAL$$2get_malloc_pool__Fv$$2init$$20:
 	.skip 0x8
 
 .section .bss, "wa"
 .balign 0x8
+# protopool$343 in BBA
 .global $$2LOCAL$$2get_malloc_pool__Fv$$2protopool
 $$2LOCAL$$2get_malloc_pool__Fv$$2protopool:
 	.skip 0x338
