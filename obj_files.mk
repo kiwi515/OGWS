@@ -280,11 +280,13 @@ EGG_O_FILES := \
 	build/asm/egg/util/eggException.o \
 
 STL_O_FILES := \
+	build/asm/rodata_8037B248.o \
 	build/asm/RevoSDK/TRK/__mem.o \
 	build/RevoSDK/TRK/__va_arg.o \
 	build/asm/RevoSDK/TRK/global_destructor_chain.o \
 	build/asm/RevoSDK/TRK/NMWException.o \
 	build/RevoSDK/TRK/ptmf.o \
+	build/RevoSDK/TRK/runtime.o \
 
 GROUP_1_O_FILES := \
 	build/asm/data.o \
