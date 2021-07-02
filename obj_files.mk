@@ -284,6 +284,7 @@ STL_O_FILES := \
 	build/RevoSDK/TRK/__va_arg.o \
 	build/asm/RevoSDK/TRK/global_destructor_chain.o \
 	build/asm/RevoSDK/TRK/NMWException.o \
+	build/RevoSDK/TRK/ptmf.o \
 
 GROUP_1_O_FILES := \
 	build/asm/data.o \
