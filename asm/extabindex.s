@@ -188,53 +188,53 @@ _index___dec2num:
     .long 0x000007b0
     .long _unwind___dec2num
 
-.global _index_func_800B43E0
-_index_func_800B43E0:
-    .long func_800B43E0
+.global _index___flush_buffer
+_index___flush_buffer:
+    .long __flush_buffer
     .long 0x000000b8
-    .long _unwind_func_800B43E0
+    .long _unwind___flush_buffer
 
-.global _index_func_800B4498
-_index_func_800B4498:
-    .long func_800B4498
+.global _index___fwrite
+_index___fwrite:
+    .long __fwrite
     .long 0x00000308
-    .long _unwind_func_800B4498
+    .long _unwind___fwrite
 
-.global _index_func_800B47A0
-_index_func_800B47A0:
-    .long func_800B47A0
+.global _index_fclose
+_index_fclose:
+    .long fclose
     .long 0x000000bc
-    .long _unwind_func_800B47A0
+    .long _unwind_fclose
 
-.global _index_func_800B485C
-_index_func_800B485C:
-    .long func_800B485C
+.global _index_fflush
+_index_fflush:
+    .long fflush
     .long 0x00000134
-    .long _unwind_func_800B485C
+    .long _unwind_fflush
 
-.global _index_func_800B4A3C
-_index_func_800B4A3C:
-    .long func_800B4A3C
+.global _index__fseek
+_index__fseek:
+    .long _fseek
     .long 0x000001c4
-    .long _unwind_func_800B4A3C
+    .long _unwind__fseek
 
-.global _index_func_800B4C80
-_index_func_800B4C80:
-    .long func_800B4C80
+.global _index_mbstowcs
+_index_mbstowcs:
+    .long mbstowcs
     .long 0x000000c0
-    .long _unwind_func_800B4C80
+    .long _unwind_mbstowcs
 
-.global _index_func_800B4D40
-_index_func_800B4D40:
-    .long func_800B4D40
+.global _index_wcstombs
+_index_wcstombs:
+    .long wcstombs
     .long 0x000000b8
-    .long _unwind_func_800B4D40
+    .long _unwind_wcstombs
 
-.global _index_func_800B4DF8
-_index_func_800B4DF8:
-    .long func_800B4DF8
+.global _index_memmove
+_index_memmove:
+    .long memmove
     .long 0x000000cc
-    .long _unwind_func_800B4DF8
+    .long _unwind_memmove
 
 .global _index_func_800B5238
 _index_func_800B5238:

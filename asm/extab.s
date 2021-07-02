@@ -169,43 +169,43 @@ _unwind___dec2num:
     .long 0x684a0000
     .long 0x00000000
 
-.global _unwind_func_800B43E0
-_unwind_func_800B43E0:
+.global _unwind___flush_buffer
+_unwind___flush_buffer:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B4498
-_unwind_func_800B4498:
+.global _unwind___fwrite
+_unwind___fwrite:
     .long 0x38080000
     .long 0x00000000
 
-.global _unwind_func_800B47A0
-_unwind_func_800B47A0:
+.global _unwind_fclose
+_unwind_fclose:
     .long 0x18080000
     .long 0x00000000
 
-.global _unwind_func_800B485C
-_unwind_func_800B485C:
+.global _unwind_fflush
+_unwind_fflush:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B4A3C
-_unwind_func_800B4A3C:
+.global _unwind__fseek
+_unwind__fseek:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B4C80
-_unwind_func_800B4C80:
+.global _unwind_mbstowcs
+_unwind_mbstowcs:
     .long 0x30080000
     .long 0x00000000
 
-.global _unwind_func_800B4D40
-_unwind_func_800B4D40:
+.global _unwind_wcstombs
+_unwind_wcstombs:
     .long 0x30080000
     .long 0x00000000
 
-.global _unwind_func_800B4DF8
-_unwind_func_800B4DF8:
+.global _unwind_memmove
+_unwind_memmove:
     .long 0x08080000
     .long 0x00000000
 

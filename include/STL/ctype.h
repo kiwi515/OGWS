@@ -19,10 +19,10 @@ struct __Locale {
 	struct __CMap* cmap;
 	u8 _1[0x44-56-4];
 };
-extern struct __Locale lbl_80398BF0;
+extern struct __Locale _current_locale;
 
-#define case_table (&lbl_80398BF0)->cmap->to_lower_table
-#define up_case_table (&lbl_80398BF0)->cmap->to_upper_table
+#define case_table (&_current_locale)->cmap->to_lower_table
+#define up_case_table (&_current_locale)->cmap->to_upper_table
 int tolower(int x) {
 	return (x < 0 || x >= 256) ? x : (int)case_table[x];
 }

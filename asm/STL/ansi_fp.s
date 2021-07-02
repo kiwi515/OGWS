@@ -1,5 +1,103 @@
 .include "macros.inc"
 
+.section .data, "wa"
+.balign 0x8
+.global switch_803988D8
+switch_803988D8:
+    .long 0x800b2ec8
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b2edc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b2ef4
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b2f0c
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b30bc
+    .long 0x800b2f24
+    .long 0x800b2f3c
+    .long 0x800b2f54
+    .long 0x800b2f6c
+    .long 0x800b2f84
+    .long 0x800b2f9c
+    .long 0x800b2fb4
+    .long 0x800b2fcc
+    .long 0x800b2fe4
+    .long 0x800b2ffc
+    .long 0x800b3014
+    .long 0x800b302c
+    .long 0x800b3044
+    .long 0x800b305c
+    .long 0x800b3074
+    .long 0x800b308c
+    .long 0x800b30a4
+    .long 0
+
+.global $$2LOCAL$$2__dec2num__FPC7decimal$$2pow_10
+$$2LOCAL$$2__dec2num__FPC7decimal$$2pow_10:
+    .long 0x40240000
+    .long 0
+    .long 0x40590000
+    .long 0
+    .long 0x408f4000
+    .long 0
+    .long 0x40c38800
+    .long 0
+    .long 0x40f86a00
+    .long 0
+    .long 0x412e8480
+    .long 0
+    .long 0x416312d0
+    .long 0
+    .long 0x4197d784
+    .long 0
+
 .section .rodata, "a"
 .balign 0x8
 .global lbl_8037B2F8
@@ -359,9 +457,9 @@ __two_exp:
 /* 800B2EA4 000ADDA4  93 C1 00 68 */	stw r30, 0x68(r1)
 /* 800B2EA8 000ADDA8  7C 9E 23 78 */	mr r30, r4
 /* 800B2EAC 000ADDAC  41 81 02 10 */	bgt lbl_800B30BC
-/* 800B2EB0 000ADDB0  3C A0 80 3A */	lis r5, lbl_803988D8@ha
+/* 800B2EB0 000ADDB0  3C A0 80 3A */	lis r5, switch_803988D8@ha
 /* 800B2EB4 000ADDB4  54 00 10 3A */	slwi r0, r0, 2
-/* 800B2EB8 000ADDB8  38 A5 88 D8 */	addi r5, r5, lbl_803988D8@l
+/* 800B2EB8 000ADDB8  38 A5 88 D8 */	addi r5, r5, switch_803988D8@l
 /* 800B2EBC 000ADDBC  7C A5 00 2E */	lwzx r5, r5, r0
 /* 800B2EC0 000ADDC0  7C A9 03 A6 */	mtctr r5
 /* 800B2EC4 000ADDC4  4E 80 04 20 */	bctr 
@@ -1520,11 +1618,11 @@ lbl_800B3EDC:
 /* 800B3EE8 000AEDE8  48 00 04 A0 */	b lbl_800B4388
 lbl_800B3EEC:
 /* 800B3EEC 000AEDEC  88 01 01 01 */	lbz r0, 0x101(r1)
-/* 800B3EF0 000AEDF0  3C E0 80 3A */	lis r7, lbl_80398A00@ha
+/* 800B3EF0 000AEDF0  3C E0 80 3A */	lis r7, $$2LOCAL$$2__dec2num__FPC7decimal$$2pow_10@ha
 /* 800B3EF4 000AEDF4  C8 42 90 D8 */	lfd f2, lbl_804C0AF8-_SDA2_BASE_(r2)
 /* 800B3EF8 000AEDF8  38 81 01 02 */	addi r4, r1, 0x102
 /* 800B3EFC 000AEDFC  90 01 01 2C */	stw r0, 0x12c(r1)
-/* 800B3F00 000AEE00  38 E7 8A 00 */	addi r7, r7, lbl_80398A00@l
+/* 800B3F00 000AEE00  38 E7 8A 00 */	addi r7, r7, $$2LOCAL$$2__dec2num__FPC7decimal$$2pow_10@l
 /* 800B3F04 000AEE04  3C 60 80 00 */	lis r3, 0x8000
 /* 800B3F08 000AEE08  C8 01 01 28 */	lfd f0, 0x128(r1)
 /* 800B3F0C 000AEE0C  FF E0 10 28 */	fsub f31, f0, f2
