@@ -279,6 +279,10 @@ EGG_O_FILES := \
 	build/asm/egg/util/eggEffect.o \
 	build/asm/egg/util/eggException.o \
 
+STL_O_FILES := \
+	build/asm/RevoSDK/TRK/__mem.o \
+	build/RevoSDK/TRK/__va_arg.o \
+
 GROUP_1_O_FILES := \
 	build/asm/data.o \
 	build/asm/sdata.o \
@@ -297,4 +301,4 @@ GROUP_1_O_FILES := \
 	build/asm/sbss2.o \
 	build/asm/sdata2.o \
 
-O_FILES := $(GROUP_0_O_FILES) $(NW4R_O_FILES) $(EGG_O_FILES) $(GROUP_1_O_FILES) $(REVOSDK_O_FILES)
+O_FILES := $(GROUP_0_O_FILES) $(NW4R_O_FILES) $(EGG_O_FILES) $(STL_O_FILES) $(GROUP_1_O_FILES) $(REVOSDK_O_FILES)
