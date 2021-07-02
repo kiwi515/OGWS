@@ -124,13 +124,13 @@ _unwind_free:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_lbl_800B2928
-_unwind_lbl_800B2928:
+.global _unwind___close_all
+_unwind___close_all:
     .long 0x18080000
     .long 0x00000000
 
-.global _unwind_func_800B29CC
-_unwind_func_800B29CC:
+.global _unwind___flush_all
+_unwind___flush_all:
     .long 0x10080000
     .long 0x00000000
 

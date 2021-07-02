@@ -134,17 +134,17 @@ _index_free:
     .long 0x00000130
     .long _unwind_free
 
-.global _index_lbl_800B2928
-_index_lbl_800B2928:
-    .long lbl_800B2928
+.global _index___close_all
+_index___close_all:
+    .long __close_all
     .long 0x000000a4
-    .long _unwind_lbl_800B2928
+    .long _unwind___close_all
 
-.global _index_func_800B29CC
-_index_func_800B29CC:
-    .long func_800B29CC
+.global _index___flush_all
+_index___flush_all:
+    .long __flush_all
     .long 0x0000006c
-    .long _unwind_func_800B29CC
+    .long _unwind___flush_all
 
 .global _index_func_800B2A38
 _index_func_800B2A38:

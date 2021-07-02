@@ -292,6 +292,9 @@ REVOSDK_2_O_FILES := \
 	build/asm/RevoSDK/TRK/GCN_mem_alloc.o \
 	build/asm/RevoSDK/TRK/alloc.o \
 
+STL_O_FILES := \
+	build/asm/STL/ansi_files.o \
+
 GROUP_1_O_FILES := \
 	build/asm/data.o \
 	build/asm/sdata.o \
@@ -310,4 +313,4 @@ GROUP_1_O_FILES := \
 	build/asm/sbss2.o \
 	build/asm/sdata2.o \
 
-O_FILES := $(GROUP_0_O_FILES) $(NW4R_O_FILES) $(EGG_O_FILES) $(REVOSDK_2_O_FILES) $(GROUP_1_O_FILES) $(REVOSDK_O_FILES)
+O_FILES := $(GROUP_0_O_FILES) $(NW4R_O_FILES) $(EGG_O_FILES) $(REVOSDK_2_O_FILES) $(STL_O_FILES) $(GROUP_1_O_FILES) $(REVOSDK_O_FILES)
