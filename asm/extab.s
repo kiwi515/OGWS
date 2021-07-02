@@ -109,18 +109,18 @@ _unwind___destroy_arr:
     .long 0x20080000
     .long 0x00000000
 
-.global _unwind_func_800B2414
-_unwind_func_800B2414:
+.global _unwind_Block_link
+_unwind_Block_link:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B260C
-_unwind_func_800B260C:
+.global _unwind_deallocate_from_fixed_pools
+_unwind_deallocate_from_fixed_pools:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B27F8
-_unwind_func_800B27F8:
+.global _unwind_free
+_unwind_free:
     .long 0x10080000
     .long 0x00000000
 

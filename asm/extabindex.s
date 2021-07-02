@@ -116,23 +116,23 @@ _index___destroy_arr:
     .long 0x00000078
     .long _unwind___destroy_arr
 
-.global _index_func_800B2414
-_index_func_800B2414:
-    .long func_800B2414
+.global _index_Block_link
+_index_Block_link:
+    .long Block_link
     .long 0x00000150
-    .long _unwind_func_800B2414
+    .long _unwind_Block_link
 
-.global _index_func_800B260C
-_index_func_800B260C:
-    .long func_800B260C
+.global _index_deallocate_from_fixed_pools
+_index_deallocate_from_fixed_pools:
+    .long deallocate_from_fixed_pools
     .long 0x000001ec
-    .long _unwind_func_800B260C
+    .long _unwind_deallocate_from_fixed_pools
 
-.global _index_func_800B27F8
-_index_func_800B27F8:
-    .long func_800B27F8
+.global _index_free
+_index_free:
+    .long free
     .long 0x00000130
-    .long _unwind_func_800B27F8
+    .long _unwind_free
 
 .global _index_lbl_800B2928
 _index_lbl_800B2928:

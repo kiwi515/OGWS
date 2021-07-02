@@ -2,19 +2,10 @@
 
 .section .rodata, "a"
 .balign 8
-.global lbl_8037B270
-lbl_8037B270:
+.global lbl_8037b270
+lbl_8037b270:
     .string "GCN_Mem_Alloc.c : InitDefaultHeap. No Heap Available\n"
     .string "Metrowerks CW runtime library initializing default heap\n"
-    .byte 00
-.global lbl_8037B2E0
-lbl_8037B2E0:
-    .long 0x4
-    .long 0xc
-    .long 0x14
-    .long 0x24
-    .long 0x34
-    .long 0x44
 
 .section .text, "ax"
 .global __sys_free
@@ -29,8 +20,8 @@ __sys_free:
 /* 800B2378 000AD278  80 0D 83 60 */	lwz r0, lbl_804BD6E0-_SDA_BASE_(r13)
 /* 800B237C 000AD27C  2C 00 FF FF */	cmpwi r0, -1
 /* 800B2380 000AD280  40 82 00 6C */	bne lbl_800B23EC
-/* 800B2384 000AD284  3F E0 80 38 */	lis r31, lbl_8037B270@ha
-/* 800B2388 000AD288  38 7F B2 70 */	addi r3, r31, lbl_8037B270@l
+/* 800B2384 000AD284  3F E0 80 38 */	lis r31, lbl_8037b270@ha
+/* 800B2388 000AD288  38 7F B2 70 */	addi r3, r31, lbl_8037b270@l
 /* 800B238C 000AD28C  4C C6 31 82 */	crclr 6
 /* 800B2390 000AD290  48 0D 1B 89 */	bl OSReport
 /* 800B2394 000AD294  38 7F B2 70 */	addi r3, r31, -19856
