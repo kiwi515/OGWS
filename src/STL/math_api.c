@@ -13,11 +13,23 @@ UNKWORD __fpclassifyd(f64 x)
     switch (U32_HIGH(x) & 0x7FF00000)
     {
         case 0x7FF00000:
-            if (((U32_HIGH(x) & 0x000FFFFF) != 0) || U32_LOW(x) != 0) return 1;
-            else return 2;
+            if (((U32_HIGH(x) & 0x000FFFFF) != 0) || U32_LOW(x) != 0)
+            {
+                return 1;
+            }
+            else
+            {
+                return 2;
+            }
         case 0:
-            if (((U32_HIGH(x) & 0x000FFFFF) != 0) || U32_LOW(x) != 0) return 5;
-            else return 3;
+            if (((U32_HIGH(x) & 0x000FFFFF) != 0) || U32_LOW(x) != 0)
+            {
+                return 5;
+            }
+            else
+            {
+                return 3;
+            }
         default:
             return 4;
     }
