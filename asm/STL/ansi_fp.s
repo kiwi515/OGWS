@@ -1,5 +1,29 @@
 .include "macros.inc"
 
+.section .sdata2, "a"
+.balign 0x8
+.global lbl_804C0AD0
+lbl_804C0AD0:
+	.incbin "baserom.dol", 0x3C9710, 0x8
+.global lbl_804C0AD8
+lbl_804C0AD8:
+	.incbin "baserom.dol", 0x3C9718, 0x8
+.global lbl_804C0AE0
+lbl_804C0AE0:
+	.incbin "baserom.dol", 0x3C9720, 0x8
+.global lbl_804C0AE8
+lbl_804C0AE8:
+	.incbin "baserom.dol", 0x3C9728, 0x8
+.global lbl_804C0AF0
+lbl_804C0AF0:
+	.incbin "baserom.dol", 0x3C9730, 0x8
+.global lbl_804C0AF8
+lbl_804C0AF8:
+	.incbin "baserom.dol", 0x3C9738, 0x8
+.global lbl_804C0B00
+lbl_804C0B00:
+	.incbin "baserom.dol", 0x3C9740, 0x20
+
 .section .data, "wa"
 .balign 0x8
 .global switch_803988D8

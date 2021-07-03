@@ -4,9 +4,6 @@
 
 .balign 0x8
 
-.global $$2wstringBase0
-$$2wstringBase0:
-	.fill 8
 .global random_next
 random_next:
 	.long 1

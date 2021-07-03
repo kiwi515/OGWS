@@ -248,53 +248,53 @@ _index___fpclassifyd:
     .long 0x00000080
     .long _unwind___fpclassifyd
 
-.global _index_func_800B52E0
-_index_func_800B52E0:
-    .long func_800B52E0
+.global _index_parse_format
+_index_parse_format:
+    .long parse_format
     .long 0x000005fc
-    .long _unwind_func_800B52E0
+    .long _unwind_parse_format
 
-.global _index_func_800B5B04
-_index_func_800B5B04:
-    .long func_800B5B04
+.global _index_longlong2str
+_index_longlong2str:
+    .long longlong2str
     .long 0x000002a0
-    .long _unwind_func_800B5B04
+    .long _unwind_longlong2str
 
-.global _index_func_800B5DA4
-_index_func_800B5DA4:
-    .long func_800B5DA4
+.global _index_double2hex
+_index_double2hex:
+    .long double2hex
     .long 0x000003c8
-    .long _unwind_func_800B5DA4
+    .long _unwind_double2hex
 
-.global _index_func_800B6294
-_index_func_800B6294:
-    .long func_800B6294
+.global _index_float2str
+_index_float2str:
+    .long float2str
     .long 0x000007d0
-    .long _unwind_func_800B6294
+    .long _unwind_float2str
 
-.global _index_func_800B6A64
-_index_func_800B6A64:
-    .long func_800B6A64
+.global _index___pformatter
+_index___pformatter:
+    .long __pformatter
     .long 0x0000085c
-    .long _unwind_func_800B6A64
+    .long _unwind___pformatter
 
-.global _index_lbl_800B72C0
-_index_lbl_800B72C0:
-    .long lbl_800B72C0
+.global _index___FileWrite
+_index___FileWrite:
+    .long __FileWrite
     .long 0x00000058
-    .long _unwind_lbl_800B72C0
+    .long _unwind___FileWrite
 
-.global _index_lbl_800B7318
-_index_lbl_800B7318:
-    .long lbl_800B7318
+.global _index___StringWrite
+_index___StringWrite:
+    .long __StringWrite
     .long 0x0000006c
-    .long _unwind_lbl_800B7318
+    .long _unwind___StringWrite
 
-.global _index_func_800B7384
-_index_func_800B7384:
-    .long func_800B7384
+.global _index_vprintf
+_index_vprintf:
+    .long vprintf
     .long 0x00000078
-    .long _unwind_func_800B7384
+    .long _unwind_vprintf
 
 .global _index_vsnprintf
 _index_vsnprintf:
@@ -302,23 +302,23 @@ _index_vsnprintf:
     .long 0x00000084
     .long _unwind_vsnprintf
 
-.global _index_func_800B7480
-_index_func_800B7480:
-    .long func_800B7480
+.global _index_vsprintf
+_index_vsprintf:
+    .long vsprintf
     .long 0x00000080
-    .long _unwind_func_800B7480
+    .long _unwind_vsprintf
 
-.global _index_func_800B7500
-_index_func_800B7500:
-    .long func_800B7500
+.global _index_snprintf
+_index_snprintf:
+    .long snprintf
     .long 0x000000d8
-    .long _unwind_func_800B7500
+    .long _unwind_snprintf
 
-.global _index_func_800B75D8
-_index_func_800B75D8:
-    .long func_800B75D8
+.global _index_sprintf
+_index_sprintf:
+    .long sprintf
     .long 0x000000d0
-    .long _unwind_func_800B75D8
+    .long _unwind_sprintf
 
 .global _index_func_800B76C8
 _index_func_800B76C8:

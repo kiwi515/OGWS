@@ -219,43 +219,43 @@ _unwind___fpclassifyd:
     .long 0x00080000
     .long 0x00000000
 
-.global _unwind_func_800B52E0
-_unwind_func_800B52E0:
+.global _unwind_parse_format
+_unwind_parse_format:
     .long 0x18080000
     .long 0x00000000
 
-.global _unwind_func_800B5B04
-_unwind_func_800B5B04:
+.global _unwind_longlong2str
+_unwind_longlong2str:
     .long 0x50080000
     .long 0x00000000
 
-.global _unwind_func_800B5DA4
-_unwind_func_800B5DA4:
+.global _unwind_double2hex
+_unwind_double2hex:
     .long 0x204a0000
     .long 0x00000000
 
-.global _unwind_func_800B6294
-_unwind_func_800B6294:
+.global _unwind_float2str
+_unwind_float2str:
     .long 0x20480000
     .long 0x00000000
 
-.global _unwind_func_800B6A64
-_unwind_func_800B6A64:
+.global _unwind___pformatter
+_unwind___pformatter:
     .long 0x80080000
     .long 0x00000000
 
-.global _unwind_lbl_800B72C0
-_unwind_lbl_800B72C0:
+.global _unwind___FileWrite
+_unwind___FileWrite:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_lbl_800B7318
-_unwind_lbl_800B7318:
+.global _unwind___StringWrite
+_unwind___StringWrite:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800B7384
-_unwind_func_800B7384:
+.global _unwind_vprintf
+_unwind_vprintf:
     .long 0x18080000
     .long 0x00000000
 
@@ -264,18 +264,18 @@ _unwind_vsnprintf:
     .long 0x18080000
     .long 0x00000000
 
-.global _unwind_func_800B7480
-_unwind_func_800B7480:
+.global _unwind_vsprintf
+_unwind_vsprintf:
     .long 0x18080000
     .long 0x00000000
 
-.global _unwind_func_800B7500
-_unwind_func_800B7500:
+.global _unwind_snprintf
+_unwind_snprintf:
     .long 0x28080000
     .long 0x00000000
 
-.global _unwind_func_800B75D8
-_unwind_func_800B75D8:
+.global _unwind_sprintf
+_unwind_sprintf:
     .long 0x28080000
     .long 0x00000000
 

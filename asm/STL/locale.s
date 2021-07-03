@@ -19,13 +19,13 @@ __lconv:
     .long 0x7f7f7f7f
     .long 0x7f7f7f00
 
-.global __loc_ctyp_C
-__loc_ctyp_C:
+.global _loc_ctyp_C
+_loc_ctyp_C:
     .long 0x43000000
     .long 0
-    .long 0x8037b3d8
-    .long 0x8037b6d8
-    .long 0x8037b5d8
+    .long __ctype_mapC
+    .long __upper_mapC
+    .long __lower_mapC
     .long 0x8037b948
     .long 0x8037bd48
     .long 0x8037bb48
@@ -111,7 +111,7 @@ _current_locale:
     .long 0
     .long 0
     .long _loc_coll_C
-    .long __loc_ctyp_C
+    .long _loc_ctyp_C
     .long _loc_mon_C
     .long _loc_num_C
     .long _loc_tim_C
