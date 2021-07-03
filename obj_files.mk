@@ -306,6 +306,8 @@ STL_O_FILES := \
 	build/STL/mem.o \
 	build/asm/STL/mem_funcs.o \
 	build/STL/math_api.o \
+	build/asm/sbss_804BED70.o \
+	build/STL/misc_io.o \
 
 GROUP_1_O_FILES := \
 	build/asm/data.o \
