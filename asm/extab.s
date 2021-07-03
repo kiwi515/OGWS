@@ -219,8 +219,8 @@ _unwind___fpclassifyd:
     .long 0x00080000
     .long 0x00000000
 
-.global _unwind_parse_format
-_unwind_parse_format:
+.global _unwind_parse_format_printf
+_unwind_parse_format_printf:
     .long 0x18080000
     .long 0x00000000
 

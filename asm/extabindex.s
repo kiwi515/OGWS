@@ -248,11 +248,11 @@ _index___fpclassifyd:
     .long 0x00000080
     .long _unwind___fpclassifyd
 
-.global _index_parse_format
-_index_parse_format:
-    .long parse_format
+.global _index_parse_format_printf
+_index_parse_format_printf:
+    .long parse_format_printf
     .long 0x000005fc
-    .long _unwind_parse_format
+    .long _unwind_parse_format_printf
 
 .global _index_longlong2str
 _index_longlong2str:
