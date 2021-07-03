@@ -4,10 +4,6 @@
 
 .balign 0x8
 
-.global random_next
-random_next:
-	.long 1
-	.balign 8
 .global __float_nan
 __float_nan:
 	.single NaN # 0x7FFFFFFF
