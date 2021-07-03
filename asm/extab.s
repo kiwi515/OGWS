@@ -209,13 +209,13 @@ _unwind_memmove:
     .long 0x08080000
     .long 0x00000000
 
-.global _unwind_func_800B5238
-_unwind_func_800B5238:
+.global _unwind___signbitd
+_unwind___signbitd:
     .long 0x00080000
     .long 0x00000000
 
-.global _unwind_func_800B5250
-_unwind_func_800B5250:
+.global _unwind___fpclassifyd
+_unwind___fpclassifyd:
     .long 0x00080000
     .long 0x00000000
 

@@ -236,17 +236,17 @@ _index_memmove:
     .long 0x000000cc
     .long _unwind_memmove
 
-.global _index_func_800B5238
-_index_func_800B5238:
-    .long func_800B5238
+.global _index___signbitd
+_index___signbitd:
+    .long __signbitd
     .long 0x00000018
-    .long _unwind_func_800B5238
+    .long _unwind___signbitd
 
-.global _index_func_800B5250
-_index_func_800B5250:
-    .long func_800B5250
+.global _index___fpclassifyd
+_index___fpclassifyd:
+    .long __fpclassifyd
     .long 0x00000080
-    .long _unwind_func_800B5250
+    .long _unwind___fpclassifyd
 
 .global _index_func_800B52E0
 _index_func_800B52E0:
