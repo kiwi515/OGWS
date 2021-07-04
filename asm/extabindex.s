@@ -338,29 +338,29 @@ _index_sscanf:
     .long 0x000000c8
     .long _unwind_sscanf
 
-.global _index_func_800B8FA8
-_index_func_800B8FA8:
-    .long func_800B8FA8
+.global _index___strtold
+_index___strtold:
+    .long __strtold
     .long 0x000013f4
-    .long _unwind_func_800B8FA8
+    .long _unwind___strtold
 
-.global _index_func_800BA39C
-_index_func_800BA39C:
-    .long func_800BA39C
+.global _index_atof
+_index_atof:
+    .long atof
     .long 0x00000084
-    .long _unwind_func_800BA39C
+    .long _unwind_atof
 
-.global _index_func_800BA420
-_index_func_800BA420:
-    .long func_800BA420
+.global _index___strtoul
+_index___strtoul:
+    .long __strtoul
     .long 0x00000430
-    .long _unwind_func_800BA420
+    .long _unwind___strtoul
 
-.global _index_func_800BA850
-_index_func_800BA850:
-    .long func_800BA850
+.global _index___strtoull
+_index___strtoull:
+    .long __strtoull
     .long 0x000004c4
-    .long _unwind_func_800BA850
+    .long _unwind___strtoull
 
 .global _index_func_800BAD44
 _index_func_800BAD44:

@@ -45,7 +45,7 @@ LDFLAGS := -map $(MAP) -mapunused -proc gekko -fp hard -nodefaults -nofail
 # Compiler flags for the Target Resident Kernel
 CFLAGS_TRK := -Cpp_exceptions off -proc gekko -fp hard -O4,s -i include/RevoSDK/TRK -I- -i include -i include/STL -nodefaults
 # Compiler flags for the Metrowerks Standard Library
-CFLAGS_STL := -Cpp_exceptions off -proc gekko -fp hard -O4,s -i include/STL -I- -i include -i include/STL -nodefaults
+CFLAGS_STL := -Cpp_exceptions off -proc gekko -fp hard -O4,s -i include/RevoSDK/TRK -I- -i include -i include/STL -nodefaults
 # Compiler flags for NintendoWare for Revolution
 CFLAGS_NW4R := -lang c99 -enum int -inline auto -Cpp_exceptions off -RTTI off -proc gekko -fp hard -O4,p  -ir include/nw4r -I- -Iinclude -Iinclude/STL -ir include/RevoSDK -nodefaults
 # Compiler flags for EGG

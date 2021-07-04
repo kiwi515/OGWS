@@ -313,6 +313,10 @@ STL_O_FILES := \
 	build/STL/rand.o \
 	build/asm/STL/scanf.o \
 	build/STL/string.o \
+	build/asm/STL/float.o \
+	build/asm/STL/strtold.o \
+	build/asm/STL/strtoul.o \
+	build/STL/wmem.o \
 
 GROUP_1_O_FILES := \
 	build/asm/data.o \

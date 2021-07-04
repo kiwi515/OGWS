@@ -294,23 +294,23 @@ _unwind_sscanf:
     .long 0x08080000
     .long 0x00000000
 
-.global _unwind_func_800B8FA8
-_unwind_func_800B8FA8:
+.global _unwind___strtold
+_unwind___strtold:
     .long 0x900a0000
     .long 0x00000000
 
-.global _unwind_func_800BA39C
-_unwind_func_800BA39C:
+.global _unwind_atof
+_unwind_atof:
     .long 0x000a0000
     .long 0x00000000
 
-.global _unwind_func_800BA420
-_unwind_func_800BA420:
+.global _unwind___strtoul
+_unwind___strtoul:
     .long 0x80080000
     .long 0x00000000
 
-.global _unwind_func_800BA850
-_unwind_func_800BA850:
+.global _unwind___strtoull
+_unwind___strtoull:
     .long 0x90080000
     .long 0x00000000
 

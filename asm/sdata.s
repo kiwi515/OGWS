@@ -4,15 +4,6 @@
 
 .balign 0x8
 
-.global __float_nan
-__float_nan:
-	.single NaN # 0x7FFFFFFF
-.global __float_huge
-__float_huge:
-	.single inf # 0x7F800000
-.global lbl_804BD550
-lbl_804BD550:
-	.incbin "baserom.dol", 0x3C71D0, 0x8
 .global lbl_804BD558
 lbl_804BD558:
 	.incbin "baserom.dol", 0x3C71D8, 0x8
