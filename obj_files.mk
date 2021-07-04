@@ -311,6 +311,8 @@ STL_O_FILES := \
 	build/asm/STL/ctype.o \
 	build/asm/STL/printf.o \
 	build/STL/rand.o \
+	build/asm/STL/scanf.o \
+	build/STL/string.o \
 
 GROUP_1_O_FILES := \
 	build/asm/data.o \

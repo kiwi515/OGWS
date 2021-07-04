@@ -9,6 +9,8 @@ __declspec(section ".init") void * memcpy(void *, const void *, size_t);
 __declspec(section ".init") void __fill_mem(void *, int, size_t);
 __declspec(section ".init") void * memset(void *, int, size_t);
 
+size_t strlen(const char *);
+
 #ifdef __cplusplus
 }
 #endif
