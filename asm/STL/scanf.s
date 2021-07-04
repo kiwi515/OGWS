@@ -15,8 +15,8 @@ lbl_80398F88:
 
 .section .text, "ax"
 # NOTE:
-# Actually parse_format, but it is not global (printf.o has another implementation of it)
-# I had to make this global because of its extab entry, so I've changed the name to prevent conflict with printf.o's version
+# Actually parse_format, but it is not global (printf.o/wprintf.o has another implementation of it)
+# I had to make this global because of its extab entry, so I've changed the name to prevent conflict with printf.o/wprintf.o's version
 .global parse_format_scanf
 parse_format_scanf:
 /* 800B76C8 000B25C8  94 21 FF C0 */	stwu r1, -0x40(r1)

@@ -362,47 +362,47 @@ _index___strtoull:
     .long 0x000004c4
     .long _unwind___strtoull
 
-.global _index_func_800BAD44
-_index_func_800BAD44:
-    .long func_800BAD44
+.global _index_parse_format_wprintf
+_index_parse_format_wprintf:
+    .long parse_format_wprintf
     .long 0x000005c0
-    .long _unwind_func_800BAD44
+    .long _unwind_parse_format_wprintf
 
-.global _index_func_800BB538
-_index_func_800BB538:
-    .long func_800BB538
+.global _index_longlong2str_wprintf
+_index_longlong2str_wprintf:
+    .long longlong2str_wprintf
     .long 0x000002ac
-    .long _unwind_func_800BB538
+    .long _unwind_longlong2str_wprintf
 
-.global _index_func_800BB7E4
-_index_func_800BB7E4:
-    .long func_800BB7E4
+.global _index_double2hex_wprintf
+_index_double2hex_wprintf:
+    .long double2hex_wprintf
     .long 0x000003c8
-    .long _unwind_func_800BB7E4
+    .long _unwind_double2hex_wprintf
 
-.global _index_func_800BBCD4
-_index_func_800BBCD4:
-    .long func_800BBCD4
+.global _index_float2str_wprintf
+_index_float2str_wprintf:
+    .long float2str_wprintf
     .long 0x000007a0
-    .long _unwind_func_800BBCD4
+    .long _unwind_float2str_wprintf
 
-.global _index_func_800BC474
-_index_func_800BC474:
-    .long func_800BC474
+.global _index___wpformatter
+_index___wpformatter:
+    .long __wpformatter
     .long 0x00000944
-    .long _unwind_func_800BC474
+    .long _unwind___wpformatter
 
-.global _index_lbl_800BCDB8
-_index_lbl_800BCDB8:
-    .long lbl_800BCDB8
+.global _index___wStringWrite
+_index___wStringWrite:
+    .long __wStringWrite
     .long 0x0000006c
-    .long _unwind_lbl_800BCDB8
+    .long _unwind___wStringWrite
 
-.global _index_func_800BCE24
-_index_func_800BCE24:
-    .long func_800BCE24
+.global _index_swprintf
+_index_swprintf:
+    .long swprintf
     .long 0x000000dc
-    .long _unwind_func_800BCE24
+    .long _unwind_swprintf
 
 .global _index_0x800bd08c
 _index_0x800bd08c:

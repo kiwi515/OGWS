@@ -314,38 +314,38 @@ _unwind___strtoull:
     .long 0x90080000
     .long 0x00000000
 
-.global _unwind_func_800BAD44
-_unwind_func_800BAD44:
+.global _unwind_parse_format_wprintf
+_unwind_parse_format_wprintf:
     .long 0x18080000
     .long 0x00000000
 
-.global _unwind_func_800BB538
-_unwind_func_800BB538:
+.global _unwind_longlong2str_wprintf
+_unwind_longlong2str_wprintf:
     .long 0x50080000
     .long 0x00000000
 
-.global _unwind_func_800BB7E4
-_unwind_func_800BB7E4:
+.global _unwind_double2hex_wprintf
+_unwind_double2hex_wprintf:
     .long 0x204a0000
     .long 0x00000000
 
-.global _unwind_func_800BBCD4
-_unwind_func_800BBCD4:
+.global _unwind_float2str_wprintf
+_unwind_float2str_wprintf:
     .long 0x20480000
     .long 0x00000000
 
-.global _unwind_func_800BC474
-_unwind_func_800BC474:
+.global _unwind___wpformatter
+_unwind___wpformatter:
     .long 0x88080000
     .long 0x00000000
 
-.global _unwind_lbl_800BCDB8
-_unwind_lbl_800BCDB8:
+.global _unwind___wStringWrite
+_unwind___wStringWrite:
     .long 0x10080000
     .long 0x00000000
 
-.global _unwind_func_800BCE24
-_unwind_func_800BCE24:
+.global _unwind_swprintf
+_unwind_swprintf:
     .long 0x28080000
     .long 0x00000000
 
