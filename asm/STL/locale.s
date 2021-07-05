@@ -1,5 +1,10 @@
 .include "macros.inc"
 
+.section .rodata, "a"
+.balign 0x8
+# Strings
+.incbin "baserom.dol", 0x3778D8, 0x108
+
 .section .data, "wa"
 .balign 0x8
 .global __lconv

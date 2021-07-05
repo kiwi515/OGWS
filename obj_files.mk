@@ -301,6 +301,7 @@ STL_O_FILES := \
 	build/asm/STL/file_io.o \
 	build/asm/STL/FILE_POS.o \
 	build/asm/STL/errno.o \
+	build/asm/STL/ctype.o \
 	build/asm/STL/locale.o \
 	build/asm/STL/mbstring.o \
 	build/STL/mem.o \
@@ -308,7 +309,6 @@ STL_O_FILES := \
 	build/STL/math_api.o \
 	build/asm/sbss_804BED70.o \
 	build/STL/misc_io.o \
-	build/asm/STL/ctype.o \
 	build/asm/STL/printf.o \
 	build/STL/rand.o \
 	build/asm/STL/scanf.o \

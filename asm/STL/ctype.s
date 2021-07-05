@@ -11,5 +11,3 @@ __lower_mapC:
 .global __upper_mapC
 __upper_mapC:
 .incbin "baserom.dol", 0x3777D8, 256
-# Strings
-.incbin "baserom.dol", 0x3778D8, 0x108
