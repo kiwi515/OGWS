@@ -13,7 +13,7 @@ size_t wcslen(const wchar_t *str)
     return len;
 }
 
-wchar_t * wcscpy (wchar_t *dest, const wchar_t *src)
+wchar_t * wcscpy(wchar_t *dest, const wchar_t *src)
 {   
     const wchar_t *wsrc = (const wchar_t *)src - 1;
     wchar_t *wdest = (wchar_t *)dest - 1;
@@ -26,7 +26,7 @@ wchar_t * wcscpy (wchar_t *dest, const wchar_t *src)
     return dest;
 }
 
-wchar_t * wcsncpy (wchar_t *dest, const wchar_t *src, size_t count)
+wchar_t * wcsncpy(wchar_t *dest, const wchar_t *src, size_t count)
 {
     const wchar_t *wsrc = (const wchar_t *)src - 1;
     wchar_t *wdest = (wchar_t *)dest - 1;
@@ -49,7 +49,7 @@ wchar_t * wcsncpy (wchar_t *dest, const wchar_t *src, size_t count)
     return dest;
 }
 
-wchar_t * wcscat (wchar_t *dest, const wchar_t *src)
+wchar_t * wcscat(wchar_t *dest, const wchar_t *src)
 {
     const wchar_t *wsrc = (const wchar_t *)src - 1;
     wchar_t *wdest = (wchar_t *)dest - 1;
@@ -63,12 +63,12 @@ wchar_t * wcscat (wchar_t *dest, const wchar_t *src)
     do
     {
         *++wdest = *++wsrc;
-    } while (*wdest != '\0');
+    } while (*wdest != L'\0');
 
     return dest;
 }
 
-int wcscmp (const wchar_t *str1, const wchar_t *str2)
+int wcscmp(const wchar_t *str1, const wchar_t *str2)
 {
     const wchar_t *s1 = (const wchar_t *)str1 - 1;
     const wchar_t *s2 = (const wchar_t *)str2 - 1;
@@ -82,7 +82,7 @@ int wcscmp (const wchar_t *str1, const wchar_t *str2)
     return c1 - c2;
 }
 
-wchar_t * wcschr (const wchar_t *str, wchar_t ch)
+wchar_t * wcschr(const wchar_t *str, wchar_t ch)
 {
     const wchar_t *s = (const wchar_t *)str - 1;
     wchar_t c;
