@@ -18,18 +18,16 @@ int TRKInitializeEndian(void)
 
     if ((val & 0xFFFF) - 0x1234 == 0x5678)
     {
-        gTRKBigEndian = TRUE;
+        return (gTRKBigEndian = TRUE);
     }
     else if ((val & 0xFFFF) - 0x7856 == 0x3412)
     {
-        gTRKBigEndian = FALSE;
+        return (gTRKBigEndian = FALSE);
     }
     else
     {
         return gTRKBigEndian;
     }
-
-    return gTRKBigEndian;
 }
 
 void TRKNubWelcome(void);
