@@ -1,5 +1,5 @@
-#ifndef TRK_DEBUGGER_MSGBUF
-#define TRK_DEBUGGER_MSGBUF
+#ifndef TRK_DEBUGGER_MSGBUF_H
+#define TRK_DEBUGGER_MSGBUF_H
 #include <types.h>
 #ifdef __cplusplus
 extern "C" {

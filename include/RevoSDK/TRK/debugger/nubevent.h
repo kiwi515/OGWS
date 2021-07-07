@@ -1,5 +1,5 @@
-#ifndef TRK_DEBUGGER_NUBEVENT
-#define TRK_DEBUGGER_NUBEVENT
+#ifndef TRK_DEBUGGER_NUBEVENT_H
+#define TRK_DEBUGGER_NUBEVENT_H
 #include <types.h>
 #ifdef __cplusplus
 extern "C" {

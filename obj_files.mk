@@ -355,9 +355,10 @@ STL_O_FILES := \
 	build/asm/STL/w_sqrt.o \
 
 TRK_DEBUGGER_O_FILES := \
-	build/asm/RevoSDK/TRK/debugger/serpoll.o \
 	build/asm/RevoSDK/TRK/debugger/mainloop.o \
 	build/RevoSDK/TRK_old/debugger/nubevent.o \
+	build/asm/RevoSDK/TRK/debugger/nubinit.o \
+	build/asm/RevoSDK/TRK/debugger/serpoll.o \
 	
 GROUP_1_O_FILES := \
 	build/asm/data.o \

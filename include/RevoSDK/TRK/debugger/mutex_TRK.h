@@ -1,5 +1,5 @@
-#ifndef TRK_DEBUGGER_MUTEX_TRK
-#define TRK_DEBUGGER_MUTEX_TRK
+#ifndef TRK_DEBUGGER_MUTEX_TRK_H
+#define TRK_DEBUGGER_MUTEX_TRK_H
 #include <types.h>
 #ifdef __cplusplus
 extern "C" {
