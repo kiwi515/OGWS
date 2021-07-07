@@ -45,7 +45,9 @@ LDFLAGS := -map $(MAP) -mapunused -proc gekko -fp hard -nodefaults -nofail
 # Compiler flags for the Target Resident Kernel
 CFLAGS_TRK := -Cpp_exceptions off -proc gekko -fp hard -O4,s -i include/RevoSDK/TRK -I- -i include -i include/STL -nodefaults
 # Compiler flags for the Metrowerks Standard Library
-CFLAGS_STL := -Cpp_exceptions off -proc gekko -fp hard -O4,s -i include/RevoSDK/TRK -I- -i include -i include/STL -nodefaults
+CFLAGS_STL := $(CFLAGS_TRK)
+# Compiler flags for the Metrowerks TRK debugger
+CFLAGS_TRK_DBG := -Cpp_exceptions off -proc gekko -fp hard -O4,p -i include/RevoSDK/TRK -I- -i include -i include/STL -i include/RevoSDK/TRK/debugger -nodefaults
 # Compiler flags for NintendoWare for Revolution
 CFLAGS_NW4R := -lang c99 -enum int -inline auto -Cpp_exceptions off -RTTI off -proc gekko -fp hard -O4,p  -ir include/nw4r -I- -Iinclude -Iinclude/STL -ir include/RevoSDK -nodefaults
 # Compiler flags for EGG
@@ -58,7 +60,7 @@ BSS_PDHR := 9
 
 ASM_DIRS := asm \
 	asm/RevoSDK asm/nw4r asm/egg \
-	asm/RevoSDK/TRK \
+	asm/RevoSDK/TRK asm/RevoSDK/TRK/debugger \
 	asm/STL \
 	asm/nw4r/ut asm/nw4r/ef asm/nw4r/math asm/nw4r/snd asm/nw4r/g3d asm/nw4r/lyt \
 	asm/egg/gfx asm/egg/prim asm/egg/math asm/egg/core asm/egg/audio asm/egg/util
@@ -66,7 +68,7 @@ ASM_DIRS := asm \
 SRC_DIRS := nw4r egg RevoSDK STL \
 	nw4r/ut nw4r/ef nw4r/math nw4r/snd nw4r/g3d nw4r/lyt \
 	egg/math egg/core egg/audio \
-	RevoSDK/TRK RevoSDK/TRK_old RevoSDK/ARC
+	RevoSDK/TRK RevoSDK/TRK_old RevoSDK/TRK_old/debugger RevoSDK/ARC
 
 # Flags for Riidefi's post-processing script
 PPROCFLAGS := -fsymbol-fixup
@@ -117,6 +119,9 @@ $(BUILD_DIR)/RevoSDK/TRK/%.o: src/RevoSDK/TRK/%.c
 
 $(BUILD_DIR)/RevoSDK/TRK_old/%.o: src/RevoSDK/TRK_old/%.c
 	$(CC_OLD) $(CFLAGS_TRK) -c -o $@ $<
+
+$(BUILD_DIR)/RevoSDK/TRK_old/debugger/%.o: src/RevoSDK/TRK_old/debugger/%.c
+	$(CC_OLD) $(CFLAGS_TRK_DBG) -c -o $@ $<
 
 $(BUILD_DIR)/STL/%.o: src/STL/%.c
 	$(CC) $(CFLAGS_STL) -c -o $@ $<

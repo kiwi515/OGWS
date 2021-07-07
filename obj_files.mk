@@ -307,7 +307,7 @@ STL_O_FILES := \
 	build/STL/mem.o \
 	build/asm/STL/mem_funcs.o \
 	build/STL/math_api.o \
-	build/asm/sbss_804BED70.o \
+	build/asm/STL/uart_console_io.o \
 	build/STL/misc_io.o \
 	build/asm/STL/printf.o \
 	build/STL/rand.o \
@@ -320,7 +320,45 @@ STL_O_FILES := \
 	build/STL/wmem.o \
 	build/asm/STL/wprintf.o \
 	build/STL/wstring.o \
+	build/asm/STL/wchar_io.o \
+	build/asm/STL/uart_console_io_gcn.o \
+	build/asm/STL/math_sun.o \
+	build/STL/math_double.o \
+	build/asm/STL/extras.o \
+	build/asm/STL/e_acos.o \
+	build/asm/STL/e_asin.o \
+	build/asm/STL/e_atan2.o \
+	build/asm/STL/e_fmod.o \
+	build/asm/STL/e_pow.o \
+	build/asm/STL/e_rem_pio2.o \
+	build/asm/STL/k_cos.o \
+	build/asm/STL/k_rem_pio2.o \
+	build/asm/STL/k_sin.o \
+	build/asm/STL/k_tan.o \
+	build/asm/STL/s_atan.o \
+	build/asm/STL/s_ceil.o \
+	build/asm/STL/s_copysign.o \
+	build/asm/STL/s_cos.o \
+	build/asm/STL/s_floor.o \
+	build/asm/STL/s_frexp.o \
+	build/asm/STL/s_ldexp.o \
+	build/asm/STL/s_modf.o \
+	build/asm/STL/s_sin.o \
+	build/asm/STL/s_tan.o \
+	build/asm/STL/w_acos.o \
+	build/asm/STL/w_asin.o \
+	build/asm/STL/w_atan2.o \
+	build/asm/STL/w_fmod.o \
+	build/asm/STL/w_pow.o \
+	build/asm/STL/e_sqrt.o \
+	build/asm/STL/math_ppc.o \
+	build/asm/STL/w_sqrt.o \
 
+TRK_DEBUGGER_O_FILES := \
+	build/asm/RevoSDK/TRK/debugger/serpoll.o \
+	build/asm/RevoSDK/TRK/debugger/mainloop.o \
+	build/RevoSDK/TRK_old/debugger/nubevent.o \
+	
 GROUP_1_O_FILES := \
 	build/asm/data.o \
 	build/asm/sdata.o \
@@ -339,4 +377,4 @@ GROUP_1_O_FILES := \
 	build/asm/sbss2.o \
 	build/asm/sdata2.o \
 
-O_FILES := $(GROUP_0_O_FILES) $(NW4R_O_FILES) $(EGG_O_FILES) $(REVOSDK_2_O_FILES) $(STL_O_FILES) $(GROUP_1_O_FILES) $(REVOSDK_O_FILES)
+O_FILES := $(GROUP_0_O_FILES) $(NW4R_O_FILES) $(EGG_O_FILES) $(REVOSDK_2_O_FILES) $(STL_O_FILES) $(TRK_DEBUGGER_O_FILES) $(GROUP_1_O_FILES) $(REVOSDK_O_FILES)

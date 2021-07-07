@@ -354,8 +354,8 @@ _unwind_0x800bd08c:
     .long 0x20080000
     .long 0x00000000
 
-.global _unwind_func_800BD164
-_unwind_func_800BD164:
+.global _unwind_scalbn
+_unwind_scalbn:
     .long 0x08080000
     .long 0x00000000
 

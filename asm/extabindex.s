@@ -410,11 +410,11 @@ _index_0x800bd08c:
     .long 0x000000d0
     .long _unwind_0x800bd08c
 
-.global _index_func_800BD164
-_index_func_800BD164:
-    .long func_800BD164
+.global _index_scalbn
+_index_scalbn:
+    .long scalbn
     .long 0x00000040
-    .long _unwind_func_800BD164
+    .long _unwind_scalbn
 
 .global _index_func_80167B48
 _index_func_80167B48:
