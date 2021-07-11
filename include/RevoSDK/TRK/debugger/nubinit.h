@@ -11,22 +11,25 @@ static BOOL gTRKBigEndian;
 // not keep it in any data sections
 int TRKInitializeEndian(void)
 {
-    u8 test[] = {0x12, 0x34, 0x56, 0x78};
-    u32 val = *((u32 *)test);
+    u8 test[4];
+    test[0] = 0x12;
+    test[1] = 0x34;
+    test[2] = 0x56;
+    test[3] = 0x78;
 
-    gTRKBigEndian = TRUE;
-
-    if ((val & 0xFFFF) - 0x1234 == 0x5678)
+    if (*((u32 *)&test) - (0x1234 << 16) == 0x5678)
     {
-        return (gTRKBigEndian = TRUE);
+        gTRKBigEndian = TRUE;
+        return FALSE;
     }
-    else if ((val & 0xFFFF) - 0x7856 == 0x3412)
+    else if (*((u32 *)&test) - (0x7856 << 16) == 0x3412)
     {
-        return (gTRKBigEndian = FALSE);
+        gTRKBigEndian = FALSE;
+        return FALSE;
     }
     else
     {
-        return gTRKBigEndian;
+        return TRUE;
     }
 }
 

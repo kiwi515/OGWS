@@ -13,11 +13,7 @@ UNKWORD TRKTerminateNub(void)
     return 0;
 }
 
-#ifdef __DECOMP_NON_MATCHING
 UNKWORD TRKInitializeNub(void)
 {
 
 }
-#else
-#error This file has yet to be decompiled accurately. Use nubinit.s instead.
-#endif
